@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h3> Hakkımda </h3> <hr>
+Merhaba ben Batuhan Özdöl, 21 yaşında Bilgisayar Mühendisliği öğrencisiyim. Ayrıca Fenerbahçe
+taraftarıyım. Şu an İstanbul Teknik Üniversitesi'nde 3. sınıf öğrencisiyim. Bu sayfayı
+deneme amaçlı olarak kurdum. <hr>
+
+<header>
+    <section id="title">
+      <h1 style="text-align:center;background-color:#DFF0A0">Batuhan Özdöl</h1><br/>
+      <h2 id="tribute-info" style="font-size:20px">A person who has created this site</h2>
+      <div id="img-div">
+        <img width=180px height=100px src="unnamed.jpg" id="image"/ alt="A photo of Batuhan">
+        <p for="image" id="image-label"><em>
+        Batuhan Ozdol is a student, studying computer science in ITU, Istanbul. Here is a casual photo of him.</em></p>
+      </div>
+    </section>
+  </header>
+  <br/><br/>
+  <main>
+    <div id="main-content">
+      <article id="time-line">
+        <h2 style="font-size:20px;text-align:center">Here's a time line of this guy</h2>
+        <ul id="time-line-list" class="text-content" >
+          <ul> <time datetime="1998">1998</time> - Born in Istanbul, Turkey.</ul>
+          <ul><time datetime="2012">2012</time> - Finishes first school Ozel Bilfen Atasehir I.O.</ul>
+          <ul><time datetime="2012">2012</time> - Attends to Burak Bora High School.</ul>
+          <ul><time datetime="2015">2015</time> - Transfered to Nazmi Arikanlar Fen Bilimleri Temel Lisesi.</ul>
+          <ul><time datetime="2016">2016</time> - Finishes high school</ul>
+          <ul><time datetime="2016">2016</time> - Attends to YTU (Yildiz Technical University) Computer Eng.</ul>
+          <ul><time datetime="2018">2018</time> - Transfered to ITU (Com. Eng.).</ul>
+          <ul><time datetime="2019">2019</time> - Still studying in this university.</ul>
+        </ul> 
+      </article>
+      <br/>
+      <hr/>
+      <br/>
+      <article id="tribute" class="text-content">
+        <p><em>Ever tried ever failed no matter; fail again, fail better.</em></p>
+        <p>-- Samuel Beckett --</p>
+      </article><br/>
+      <hr/>
+    </div>
+  </main>
+  
+  <footer>
+    <div id="footer-content">
+      <section> Thank you for examining my site and my short life story.</section>
+      <br/><br/><br/><br/>
+    </div>
+  </footer>
+{% endblock body %}

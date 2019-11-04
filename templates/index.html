@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<br/>
+<h3>Anasayfa</h3><br/>
+<div class= "jumbotron text-center">
+	<h3> Fano Bum bloguna hoş geldiniz. </h3> <br/>
+	<p> Blog yazılarınızı burada paylaşabilirsiniz. </p>
+</div>
+
+<ul>
+	{% for number in numbers %}
+		<li> {{number}} </li>
+	{% endfor %}
+</ul>
+
+
+{% endblock %}
